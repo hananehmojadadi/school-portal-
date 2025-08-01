@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Student Profile</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+  <nav class="navbar">
+  <div class="logo"> My School</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="profile.html">Student Profile</a></li>
+    <li><a href="courses.html">Courses</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+</nav>
+  </header>
+
+  <main>
+    <h2>Student: Amina</h2>
+    <img src="collage.jpg.jpeg" alt="Student Photo" width="150">
+    <p>Age: 16</p>
+    <p>Grade: 10</p>
+    <p id="status">Status: Active</p>
+
+    <div id="contact-info"></div>
+
+    <div id="controls">
+      <button data-action="showEmail">Show Email</button>
+      <button data-action="showPhone">Show Phone</button>
+      <button data-action="hideContact">Hide Contact Info</button>
+    </div>
+
+    <input type="text" id="statusInput" placeholder="Enter new status">
+    <button id="updateStatus">Update Status</button>
+  </main>
+
+  <script src="script.js"></script>
+</body>
